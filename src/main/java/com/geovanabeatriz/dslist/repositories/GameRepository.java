@@ -1,5 +1,9 @@
 package com.geovanabeatriz.dslist.repositories;
 
-public class GameRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.geovanabeatriz.dslist.entities.Game;
+
+public interface GameRepository extends JpaRepository<Game, Long> {
 
 }
